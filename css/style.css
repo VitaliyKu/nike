@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300');
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?gbwofv');
+  src:  url('../font/icomoon.eot?gbwofv#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?gbwofv') format('truetype'),
+    url('../font/icomoon.woff?gbwofv') format('woff'),
+    url('../font/icomoon.svg?gbwofv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-keyboard_arrow_down:before {
+  content: "\e901";
+}
+.icon-keyboard_arrow_down2:before {
+  content: "\e900";
+}
+.icon-star_border:before {
+  content: "\e904";
+}
+.icon-star:before {
+  content: "\e905";
+}
+
+
+
+html,body{
+	height: 100%;
+}
+
+body{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.85;
+	background: white;
+	
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	opacity: 0.5;
+	border: 2px solid white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container{
+	position: relative;
+	max-width: 1330px;
+	margin: 0 auto;
+	background: url('../img/main-bg.jpeg') fixed no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.nike{
+	position: absolute;
+	display: block;
+	width: 51%;
+	height: 388px;
+	margin: 0 auto;
+	background: #111a28;
+	top: 50%;
+	right: 0;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.logo{
+	display: inline-block;
+	padding-top: 1.4rem;
+	padding-left: 1.28rem;
+}
+
+.snickers{
+	float: left;
+	margin-top: 4.6rem;
+	margin-left: 2.4rem;
+}
+
+.product-info{
+	width: 35%;
+	float: right;
+	padding-left: 0.2rem;
+	box-sizing: border-box;
+	
+}
+
+.product-info__definition p{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: #49505a;
+	padding-top: 0.3rem;
+	line-height: 1.8rem;
+}
+
+.product-info__name > p{
+	margin: 0 auto;
+	padding: 0;
+	font-size: 24px;
+	color: white;
+	font-family: 'Montserrat';
+	font-weight:300;
+	color: #797d84;
+	line-height: 1.8rem;
+}
+
+ul{
+	box-sizing: border-box;
+	display: inline-block;
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	padding-top: 1.3rem;
+}
+
+li{
+	display: inline-block;
+}
+
+.product-btn{
+	display: inline-block;
+	width: 100%;
+}
+
+.product-btn button{
+	display: inline-block;
+	width: 4.64rem;
+	margin-top: 1.3rem;
+	height: 2.1rem;
+	background: #111a28;
+	border: 1px solid #4f5560;
+	color: #797d84;
+}
+
+.product-size,
+.product-qty{
+	display: inline-block;
+	width: 30%;
+}
+
+
+.product-add__add-to-card button{
+	width: 13rem;
+	height: 2.71rem;
+	background: #111a28;
+	border: 1px solid #4f5560;
+	color: #797d84;
+	margin-top: 2rem;
+}
+
+.product-rating i{
+	color: yellow;
+}
+
+.product-btn i{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+
